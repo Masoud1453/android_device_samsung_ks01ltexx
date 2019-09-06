@@ -207,6 +207,9 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# Wi-Fi Display
+TARGET_USES_AOSP_WFD := true
+
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_WLAN_DEVICE := bcmdhd
